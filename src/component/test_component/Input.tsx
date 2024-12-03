@@ -38,6 +38,7 @@ const Input = () => {
           rules={{...ALPHABETS_WITHOUT_SPACES_RULE}}
         />
         <TextInput
+         multiline
           name="email"
         //   isDisabled
           control={control}
